@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="D:\nti-tasks\day2\table-task\index.html" method="post" autocomplete="off">
+        <fieldset>
+            <legend>Your Information</legend>
+            <label for="name">User Name</label><br>
+            <input type="text" placeholder="Enter Your Name" id="name"><br><br>
+            <label for="Password">Password</label><br>
+            <input type="password" placeholder="Enter Your Password" id="Password"
+                pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"><br><br>
+            <label for="Age">Age</label><br>
+            <input type="number" placeholder="Enter your age" id="Age"><br><br>
+            <label for="Birthday">Birthday</label><br>
+            <input type="date" id="Birthday"><br><br>
+            <label for="comment">Write Your Comments</label><br>
+            <textarea name="comments" id="comment" rows="10" cols="50"></textarea><br><br>
+            <select name="city" id="city">
+                <option value="" disabled selected>Choose Your city</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="Qatar">Qatar</option>
+                <option value="UAE">UAE</option>
+                <option value="Kuwait">Kuwait</option>
+            </select>
+            <p>What your favorit sport?</p>
+            <input type="radio" name="sport" id="Football" value="Football"> <label for="Football">Football</label><br>
+            <input type="radio" name="sport" id="Basketball" value="Basketball"> <label
+                for="Basketball">Basketball</label><br>
+            <input type="radio" name="sport" id="Vollyball" value="Vollyball"> <label
+                for="Vollyball">Vollyball</label><br>
+            <input type="radio" name="sport" id="swimming" value="swimming"> <label for="swimming">swimming</label><br>
+            <p>What are your favorite languages?</p>
+            <input type="checkbox" name="Python" id="Python"> <label for="Python">Python</label><br>
+            <input type="checkbox" name="JS" id="JS"> <label for="JS">JS</label><br>
+            <input type="checkbox" name="C++" id="C++"> <label for="C++">C++</label><br>
+            <input type="checkbox" name="Java" id="Java"> <label for="Java">Java</label><br>
+            <input type="reset"> <input type="submit" value="Sign Up">
+        </fieldset>
+    </form>
+</body>
+
+</html>
