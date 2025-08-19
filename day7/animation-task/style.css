@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: relative;
+    background-color: orangered;
+    animation-name: task;
+    animation-duration: 5s;
+}
+
+@keyframes task {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 800px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 800px;
+        top: 600px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}

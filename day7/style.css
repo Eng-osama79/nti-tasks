@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 600px;
+    margin: auto;
+    background-color: rgb(251, 220, 173);
+}
+
+p {
+    height: 100px;
+    overflow-y: scroll;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    border: none;
+    outline: none;
+}

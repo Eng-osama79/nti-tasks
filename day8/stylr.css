@@ -1,0 +1,11 @@
+.d-flex{
+    height: 80vh ;
+}
+.price{
+    display: flex ;
+    justify-content: center;
+}
+
+.price span {
+    display: inline-block;
+}

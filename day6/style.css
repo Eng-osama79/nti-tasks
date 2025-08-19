@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top , rgb(10, 10, 10) 25% , gray 35% , white);
+    /* 0 25 35 100% */
+}
+
+.container-caerds{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.card {
+    padding: 30px;
+    display: flex;
+    background-image: linear-gradient(to top , rgb(16, 16, 16) 2% , gray 20% , white);
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    font-weight: 500;
+}
