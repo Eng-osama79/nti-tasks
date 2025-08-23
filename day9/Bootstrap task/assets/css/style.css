@@ -132,7 +132,7 @@
     transform: scale(1.08) !important;
 }
 
-.offer .card-body *:not(a) {
+.offer .card-title ,.offer .card-text {
     font-family: var(--dancing);
 }
 
